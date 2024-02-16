@@ -12,15 +12,15 @@ import { Box, HStack, VStack } from "@chakra-ui/react";
 const socials = [
   {
     icon: faEnvelope,
-    url: "mailto:hello@example.com",
+    url: "mailto:ahmadrg91@gmail.com",
   },
   {
     icon: faGithub,
-    url: "https://github.com",
+    url: "https://github.com/ahmadrg91",
   },
   {
     icon: faLinkedin,
-    url: "https://www.linkedin.com",
+    url: "https://www.linkedin.com/ahmadrg91",
   },
   {
     icon: faMedium,
@@ -54,10 +54,8 @@ const Header = () => {
     }
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll)
-  } 
+  }
   ,[window.scrollY])
-
-  
 
   return (
     <Box
